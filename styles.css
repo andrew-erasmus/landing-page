@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    flex:1;
+    background-color: #1F2937;
+}
+
+.content{
+    flex:1;
+}
+
+.footer{
+    flex:1;
+}
+
