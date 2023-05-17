@@ -28,14 +28,15 @@ body{
 }
 
 .header img{
-    width:400px;
+    width:600px;
     height: 200px;
     background-color: #e5e7eb;
+    text-align: center;
 }
 
 h1{
     font-size: 48px;
-    font-weight: extra bold;
+    font-weight: bolder;
     color: #f9faf8;
 }
 .header ul, .header p{
@@ -53,6 +54,9 @@ h1{
 }
 
 .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
     margin-right: auto;
 }
 
@@ -76,5 +80,3 @@ h1{
 .footer{
     flex:1;
 }
-
-/*Fix font weights of the header*/
