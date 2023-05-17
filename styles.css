@@ -50,12 +50,13 @@ h1 {
     color: #e5e7eb;
     font-size: 18px;
 }
-
-.header ul {
+ul{
     flex: 1;
     text-decoration: none;
     list-style: none;
     display: flex;
+}
+.header ul {
     gap: 20px;
     padding-inline-start: 0px;
 }
@@ -100,9 +101,32 @@ h1 {
 
 .main-info {
     flex: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
 }
 
-.main-info 
+.main-info ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main-info li{
+    flex:1;
+    max-width: 150px;
+
+}
+
+.main-info img{
+    border: solid #3882f6 3px;
+    box-shadow: 2px 2px 1px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
 
 .quote {
     flex: auto;
