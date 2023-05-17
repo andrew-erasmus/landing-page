@@ -39,6 +39,14 @@ h1{
     margin-right: auto;
 }
 
+.header-content{
+    display: flex;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
 .content{
     flex:1;
 }
