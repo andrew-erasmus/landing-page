@@ -28,6 +28,7 @@ body{
 }
 
 .header img{
+    flex:1;
     width:600px;
     height: 200px;
     background-color: #e5e7eb;
@@ -38,6 +39,8 @@ h1{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0;
+    margin-right: 10px;
 }
 .header ul, .header p{
     color: #e5e7eb;
@@ -62,17 +65,18 @@ h1{
 
 .header-content{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    justify-content: space-between;
+  
 }
 
 .header-text{
     flex:1;
     display: flex;
     flex-wrap: wrap;
-    
+    margin-right:10px;
 }
+
+
 .content{
     flex:1;
 }
