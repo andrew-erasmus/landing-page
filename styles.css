@@ -160,8 +160,48 @@ ul {
 
 .action-container {
     flex: auto;
+    display: flex;
+    background-color: #3882f6;
+    padding:50px;
+    margin:100px;
+    border-radius: 10px;
 }
 
+.action-text{
+    margin-left: 20%;
+    text-align: start;
+    flex:1;
+    margin:0;
+    color: white;
+}
+
+.action-text .head{
+    margin-bottom:0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.action-text p{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.action-container button{
+    color: white;
+    text-decoration: none;
+    background-color: #3882f6;
+    width: fit-content;
+    border-radius: 8px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid white 1px;
+    width: fit-content;
+    align-self: center;
+}
 
 
 .footer {
