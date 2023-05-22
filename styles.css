@@ -129,6 +129,10 @@ ul {
     width: 150px;
 }
 
+.main-info img:hover{
+    transform: scale(1.15);
+} 
+
 
 .quote {
     flex: auto;
